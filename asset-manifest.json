@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://dsborini.github.io/portfolio/static/css/main.9f8ab3bb.chunk.css",
-    "main.js": "https://dsborini.github.io/portfolio/static/js/main.8d94089c.chunk.js",
-    "main.js.map": "https://dsborini.github.io/portfolio/static/js/main.8d94089c.chunk.js.map",
+    "main.js": "https://dsborini.github.io/portfolio/static/js/main.052386d3.chunk.js",
+    "main.js.map": "https://dsborini.github.io/portfolio/static/js/main.052386d3.chunk.js.map",
     "runtime-main.js": "https://dsborini.github.io/portfolio/static/js/runtime-main.81efe008.js",
     "runtime-main.js.map": "https://dsborini.github.io/portfolio/static/js/runtime-main.81efe008.js.map",
     "static/css/2.9905d55a.chunk.css": "https://dsborini.github.io/portfolio/static/css/2.9905d55a.chunk.css",
     "static/js/2.056b7400.chunk.js": "https://dsborini.github.io/portfolio/static/js/2.056b7400.chunk.js",
     "static/js/2.056b7400.chunk.js.map": "https://dsborini.github.io/portfolio/static/js/2.056b7400.chunk.js.map",
     "index.html": "https://dsborini.github.io/portfolio/index.html",
-    "precache-manifest.1c03b6dfcff6747ed536534ad3d58801.js": "https://dsborini.github.io/portfolio/precache-manifest.1c03b6dfcff6747ed536534ad3d58801.js",
+    "precache-manifest.fcf6795d46902ecf76e26d72e712f851.js": "https://dsborini.github.io/portfolio/precache-manifest.fcf6795d46902ecf76e26d72e712f851.js",
     "service-worker.js": "https://dsborini.github.io/portfolio/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "https://dsborini.github.io/portfolio/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.9f8ab3bb.chunk.css.map": "https://dsborini.github.io/portfolio/static/css/main.9f8ab3bb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.9905d55a.chunk.css",
     "static/js/2.056b7400.chunk.js",
     "static/css/main.9f8ab3bb.chunk.css",
-    "static/js/main.8d94089c.chunk.js"
+    "static/js/main.052386d3.chunk.js"
   ]
 }
