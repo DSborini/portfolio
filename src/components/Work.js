@@ -3,6 +3,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import content from '../content';
 import useWindowPosition from '../hook/useWindowPosition';
+require('dotenv').config();
 
 export default function Work() {
   return (
