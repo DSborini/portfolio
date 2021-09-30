@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1299ef3d16e595fc827da1414818a2fd",
+    "revision": "0d5d2b374c8540ae70c4079d94ddc805",
     "url": "https://dsborini.github.io/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://dsborini.github.io/portfolio/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "426f0b1878d31da3b98b",
+    "revision": "40cb8656e7a6dc3cbf1e",
     "url": "https://dsborini.github.io/portfolio/static/css/main.9f8ab3bb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://dsborini.github.io/portfolio/static/js/2.056b7400.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "426f0b1878d31da3b98b",
-    "url": "https://dsborini.github.io/portfolio/static/js/main.470fcc7d.chunk.js"
+    "revision": "40cb8656e7a6dc3cbf1e",
+    "url": "https://dsborini.github.io/portfolio/static/js/main.8d94089c.chunk.js"
   },
   {
     "revision": "e0b644bf6c695b5dbb80",
