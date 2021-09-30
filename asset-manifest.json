@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "https://dsborini.github.io/portfolio/static/css/main.9f8ab3bb.chunk.css",
-    "main.js": "https://dsborini.github.io/portfolio/static/js/main.7afed138.chunk.js",
-    "main.js.map": "https://dsborini.github.io/portfolio/static/js/main.7afed138.chunk.js.map",
+    "main.js": "https://dsborini.github.io/portfolio/static/js/main.470fcc7d.chunk.js",
+    "main.js.map": "https://dsborini.github.io/portfolio/static/js/main.470fcc7d.chunk.js.map",
     "runtime-main.js": "https://dsborini.github.io/portfolio/static/js/runtime-main.81efe008.js",
     "runtime-main.js.map": "https://dsborini.github.io/portfolio/static/js/runtime-main.81efe008.js.map",
     "static/css/2.9905d55a.chunk.css": "https://dsborini.github.io/portfolio/static/css/2.9905d55a.chunk.css",
-    "static/js/2.685ea4dc.chunk.js": "https://dsborini.github.io/portfolio/static/js/2.685ea4dc.chunk.js",
-    "static/js/2.685ea4dc.chunk.js.map": "https://dsborini.github.io/portfolio/static/js/2.685ea4dc.chunk.js.map",
+    "static/js/2.056b7400.chunk.js": "https://dsborini.github.io/portfolio/static/js/2.056b7400.chunk.js",
+    "static/js/2.056b7400.chunk.js.map": "https://dsborini.github.io/portfolio/static/js/2.056b7400.chunk.js.map",
     "index.html": "https://dsborini.github.io/portfolio/index.html",
-    "precache-manifest.68ffcca00b1180de81095b4a00bd4286.js": "https://dsborini.github.io/portfolio/precache-manifest.68ffcca00b1180de81095b4a00bd4286.js",
+    "precache-manifest.d62cdea63d10a347e70cccabb5a36eef.js": "https://dsborini.github.io/portfolio/precache-manifest.d62cdea63d10a347e70cccabb5a36eef.js",
     "service-worker.js": "https://dsborini.github.io/portfolio/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "https://dsborini.github.io/portfolio/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.9f8ab3bb.chunk.css.map": "https://dsborini.github.io/portfolio/static/css/main.9f8ab3bb.chunk.css.map",
-    "static/js/2.685ea4dc.chunk.js.LICENSE.txt": "https://dsborini.github.io/portfolio/static/js/2.685ea4dc.chunk.js.LICENSE.txt"
+    "static/js/2.056b7400.chunk.js.LICENSE.txt": "https://dsborini.github.io/portfolio/static/js/2.056b7400.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.81efe008.js",
     "static/css/2.9905d55a.chunk.css",
-    "static/js/2.685ea4dc.chunk.js",
+    "static/js/2.056b7400.chunk.js",
     "static/css/main.9f8ab3bb.chunk.css",
-    "static/js/main.7afed138.chunk.js"
+    "static/js/main.470fcc7d.chunk.js"
   ]
 }
