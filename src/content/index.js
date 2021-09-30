@@ -23,7 +23,7 @@ export default {
   work: {
     title: 'Projetos',
     img: [
-      'portfolio/assets/tanamesa.png',
+      '/portfolio/assets/tanamesa.png',
       '/assets/trivia.png',
       '/assets/cookmaster.png'
     ],
