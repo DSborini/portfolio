@@ -106,8 +106,6 @@ const ProjectDetail = (props) => {
 
   const redirectToProject = (link) => {
     window.location.assign(link);
-    console.log(content.work.img[0]);
-    console.log(content.stack.tech[0].img);
   }
 
   return (
