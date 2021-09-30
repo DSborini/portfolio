@@ -40,7 +40,11 @@ export default function Work() {
           />
         </div>
         <div className="flex justify-center items-center md:hidden">
-          <ProjectDetail />
+          <ProjectDetail 
+            projectNum="0"
+            webLink="https://dsborini.github.io/recipes-app/"
+            gitLink="https://github.com/DSborini/recipes-app"
+          />
         </div>
       </div>
       {/* _________________________________________________________________________________________________project */}
@@ -67,7 +71,11 @@ export default function Work() {
           />
         </div>
         <div className="flex justify-center items-center md:hidden">
-          <ProjectDetail />
+            <ProjectDetail 
+            projectNum="1"
+            webLink="https://dsborini.github.io/project-trivia/"
+            gitLink="https://github.com/DSborini/project-trivia/"
+          />
         </div>
       </div>
       {/* _________________________________________________________________________________________________project */}
@@ -94,7 +102,11 @@ export default function Work() {
           />
         </div>
         <div className="flex justify-center items-center md:hidden">
-          <ProjectDetail />
+          <ProjectDetail 
+          projectNum="2"
+          webLink="https://github.com/DSborini/cookmaster-api"
+          gitLink="https://github.com/DSborini/cookmaster-api"
+          />
         </div>
       </div>
     </div>
@@ -105,7 +117,7 @@ const ProjectDetail = (props) => {
   const animated = useWindowPosition('header', 0.6);
 
   const redirectToProject = (link) => {
-    window.location.assign(link);
+    return window.location.assign(link);
   }
 
   return (
@@ -129,7 +141,7 @@ const ProjectDetail = (props) => {
           onClick={ () => { redirectToProject(props.webLink) } }
           className={`${
             animated ? '' : 'translate-y-10 opacity-0'
-          } transform transition duration-2000  px-10 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
+          } transform transition duration-2000  px-6 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
         >
           <img
             src={process.env.PUBLIC_URL + "/assets/rocket.svg"}
@@ -142,7 +154,7 @@ const ProjectDetail = (props) => {
           onClick={ () => { redirectToProject(props.gitLink) } }
           className={`${
             animated ? '' : 'translate-y-10 opacity-0'
-          } transform transition duration-2000  px-10 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
+          } transform transition duration-2000  px-6 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
         >
           <img
             src={process.env.PUBLIC_URL + "/assets/github-light.png"}
