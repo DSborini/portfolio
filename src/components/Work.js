@@ -131,7 +131,7 @@ const ProjectDetail = (props) => {
           } transform transition duration-2000  px-10 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
         >
           <img
-            src="../assets/rocket.svg"
+            src="/assets/rocket.svg"
             alt="rocket"
             className="mr-5"
           />
