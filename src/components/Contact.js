@@ -7,6 +7,9 @@ import useWindowPosition from '../hook/useWindowPosition';
 
 export default function Contact() {
   const animated = useWindowPosition('header', 0.6, 4);
+  const redirectSocial = (link) => {
+    window.location.assign(link);
+  }
   return (
     <div
       className=" min-h-screen  flex justify-center items-center  "
@@ -43,15 +46,16 @@ export default function Contact() {
             {content.contact.desc}
           </p>
           <div
-            className={`flex ${
+            className={`flex justify-start ${
               animated ? '' : 'translate-y-10 opacity-0'
             } transform transition duration-3000 `}
           >
             {content.contact.socials.map((social, index) => {
               return (
                 <LazyLoadImage
+                  onClick={ () => redirectSocial(social.link) }
                   effect="blur"
-                  className="m-2"
+                  className="m-2 pr-4 cursor-pointer"
                   width="50px"
                   key={index}
                   src={social.img}

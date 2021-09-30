@@ -70,11 +70,11 @@ export default function Work() {
         </div>
       </div>
       {/* _________________________________________________________________________________________________project */}
-      {/* <div className="flex flex-col md:flex-row justify-between items-center w-11/12 ">
+      <div className="flex flex-col md:flex-row justify-between items-center w-11/12 ">
         <LazyLoadImage
           effect="blur"
           placeholderSrc={content.work.imgPlaceholder}
-          src={content.work.img}
+          src={content.work.img[2]}
           alt="phone prototype"
           className="m-10 transtion duration-2000 ease-in-out z-10  md:w-3/5 w-4/5"
         />
@@ -86,12 +86,16 @@ export default function Work() {
               '35px 50px 90px -25px rgba(50, 50, 95, 0.5), 20px 35px 75px -35px rgba(0, 0, 0, 0.5)',
           }}
         >
-          <ProjectDetail />
+          <ProjectDetail
+          projectNum="2"
+          webLink="https://github.com/DSborini/cookmaster-api"
+          gitLink="https://github.com/DSborini/cookmaster-api"
+          />
         </div>
         <div className="flex justify-center items-center md:hidden">
           <ProjectDetail />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
