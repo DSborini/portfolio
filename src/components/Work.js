@@ -144,7 +144,7 @@ const ProjectDetail = (props) => {
           } transform transition duration-2000  px-10 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
         >
           <img
-            src="../assets/github-light.png"
+            src="/assets/github-light.png"
             alt="github"
             className="mr-5"
           />
